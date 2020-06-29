@@ -8,7 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserRest {
 
     @GetMapping("/user")
-    public User getUSer() {
-        return new User(1, "user6");
+    public User getUSer1() {
+        return new User(1, "user1");
+    }
+
+    public User getUser2() {
+        return new User(2, "user2");
     }
 }
