@@ -9,6 +9,6 @@ public class UserRest {
 
     @GetMapping("/user")
     public User getUSer() {
-        return new User(1, "user5");
+        return new User(1, "user6");
     }
 }
