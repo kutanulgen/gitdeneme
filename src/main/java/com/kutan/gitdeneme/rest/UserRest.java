@@ -16,4 +16,9 @@ public class UserRest {
     public User getUser2() {
         return new User(2, "user2");
     }
+    
+    @GetMapping("/user4")
+    public User getUser4() {
+        return new User(4, "user4");
+    }
 }
